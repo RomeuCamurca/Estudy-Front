@@ -1,0 +1,17 @@
+body {
+    background-color: #E3F2FD;
+}
+
+.card-header {
+    background-color: white;
+    font-weight: bold;
+}
+
+#espaco{
+    margin-top: 30px;
+}
+
+.card-body {
+    background-color: #F3F3F3;
+}
+
