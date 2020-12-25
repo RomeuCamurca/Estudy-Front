@@ -8,6 +8,6 @@ Demo referente a page-1:
 
 - http://test-post-romeu.s3-website-us-east-1.amazonaws.com/ 
 
-Demor referente a responsive-side-navigation-bar:
+Demor referente a Responsive-Side-Navigation-Bar:
 
 - http://responsive-side-navigation-bar.s3-website-us-east-1.amazonaws.com/
