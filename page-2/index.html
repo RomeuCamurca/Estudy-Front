@@ -1,110 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Página Web Estática</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="estilos.css">
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <meta charset="utf-8"/>
-
+  <title>Página Web Estática</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="estilos.css">
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <meta charset="utf-8"/>
+  
+  <style>
+    body {
+      background-color: #E3F2FD;
+    }
+    .card-header {
+      background-color: white;
+      font-weight: bold;
+    }
+    #espaco{
+      margin-top: 30px;
+    }
+    
+    .card-body {
+      background-color: #F3F3F3;
+    }
+  </style>
+  
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand">Hello World Examples</a>
-    </nav>
-
-    <div class="container">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand">Hello World Examples</a>
+  </nav>
+  
+  <div class="container">
+    <div class="card" id="espaco">
+      <div class="card-header">
+        C#
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+          using System;
+          <br>
+          <br>    
+          namespace HelloWorld
+          <br>
+          {
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;class Program
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;{
+              <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void Main(string[] args)
+              <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine("Hello World!");
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}
+                <br>
+              }
+            </p>
+          </div>
+        </div>
+        
         <div class="card" id="espaco">
-            <div class="card-header">
-              C#
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                using System;
+          <div class="card-header">
+            Java
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              public class FirstClass {
                 <br>
-                <br>    
-                namespace HelloWorld
-                <br>
-                {
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;class Program
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;{
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void Main(string[] args)
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine("Hello World!");
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;}
-                    <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {
+                  <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello world!");
+                  <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;}
+                  <br>
                 }
               </p>
             </div>
           </div>
-
-          <div class="card" id="espaco">
-            <div class="card-header">
-              Java
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                public class FirstClass {
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello world!");
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;}
-                        <br>
-                }
-              </p>
-            </div>
-          </div>
-
+          
           <div class="card" id="espaco">
             <div class="card-header">
               Python
             </div>
             <div class="card-body">
               <p class="card-text">
-                  Print ("Hello World!")
+                Print ("Hello World!")
               </p>
             </div>
           </div>
-
+          
           <div class="card" id="espaco">
             <div class="card-header">
               Javascript
             </div>
             <div class="card-body">
               <p class="card-text">
-                  console.log("Hello!");
+                console.log("Hello!");
               </p>
             </div>
           </div>
-
+          
           <div class="card" id="espaco">
             <div class="card-header">
               Shell Script
             </div>
             <div class="card-body">
               <p class="card-text"> 
-                  echo "Hello World!"
+                echo "Hello World!"
               </p>
             </div>
           </div>
-
+          
           <div class="card" id="espaco">
             <div class="card-header">
               Go
@@ -118,14 +135,14 @@
                 <br>
                 <br>
                 func main() {
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;fmt.Printf("Hello, World!\n")
-                    <br>
+                  <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;fmt.Printf("Hello, World!\n")
+                  <br>
                 }
               </p>
             </div>
           </div>
-
+          
           <div class="card" id="espaco">
             <div class="card-header">
               C
@@ -133,16 +150,17 @@
             <div class="card-body">
               <p class="card-text">
                 int main(){
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello World!");
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;return 0;
-                    <br>
+                  <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello World!");
+                  <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;return 0;
+                  <br>
                 } 
               </p>
             </div>
           </div>
-    </div>
-</body>
-
-</html>
+        </div>
+      </body>
+      
+      </html>
+      
